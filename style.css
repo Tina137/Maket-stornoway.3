@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+.wrapper {
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+}
+.hader {
+  height: 100vh;
+  background-image: url(./ali-kazal-h1bodLo-FLs-unsplash.jpg);
+  background-size: cover;
+}
+.menu-title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+.menu-link {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.menu-link:hover {
+  border-bottom: 2px solid white;
+}
+.menu {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.hader-content {
+  margin-top: 23%;
+}
+.hader-content-title {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.hader-content-batton {
+  display: block;
+  text-decoration: none;
+  width: 190px;
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  padding: 15px 0px;
+  text-align: center;
+  margin: auto;
+  font-weight: 400;
+}
+.hader-content-batton:hover {
+  color: white;
+  background-color: black;
+}
+.conteiner {
+  margin: auto;
+}
+.site-content {
+  padding: 15%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.content-title {
+  color: black;
+  text-align: center;
+  font-weight: 500;
+  font-size: 80px;
+}
+.content-text {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.content-batton {
+  display: block;
+  text-decoration: none;
+  width: 190px;
+  color: white;
+  font-size: 18px;
+  background-color: black;
+  padding: 15px 0px;
+  text-align: center;
+  margin: auto;
+  font-weight: 400;
+  margin-top: 50px;
+  transition: 1s;
+}
+.content-batton:hover {
+  background-color: rgb(84, 79, 79);
+}
+.content-example {
+  height: 100vh;
+  background-color: black;
+}
+.example-titlp {
+  text-align: center;
+  font-weight: 500;
+  font-size: 60px;
+  color: white;
+  margin-bottom: 6%;
+  padding-top: 40px;
+}
+.example-text {
+  color: white;
+  font-weight: 400;
+}
+.example-img-div {
+  width: 380px;
+  overflow: hidden;
+  padding-bottom: 17px;
+}
+.example-img {
+  width: 380px;
+}
+.example-flex {
+  display: flex;
+  gap: 85px;
+  justify-content: space-around;
+}
+.oneexample {
+  text-align: center;
+}
+
+.example-button {
+  display: block;
+  text-decoration: none;
+  width: 190px;
+  color: black;
+  font-size: 18px;
+  background-color: white;
+  padding: 15px 0px;
+  text-align: center;
+  margin: auto;
+  font-weight: 400;
+  margin-top: 80px;
+}
+.example-button:hover {
+  background-color: rgb(37, 34, 34);
+  color: white;
+}
+.services {
+  height: 100vh;
+}
+.services-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services-left {
+  width: 50%;
+}
+.services-title {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+.services-text {
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+.services-button {
+  display: inline-block;
+  text-decoration: none;
+  width: 190px;
+  color: white;
+  font-size: 18px;
+  background-color: black;
+  padding: 15px 0px;
+  text-align: center;
+  font-weight: 400;
+  transition: 1s;
+}
+.services-button:hover {
+  background-color: rgb(84, 79, 79);
+}
+.services-items {
+  list-style: none;
+}
+.item-number {
+  font-size: 60px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+.item {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.careers {
+  height: 100vh;
+  background-image: url(./IMAGE\ 2022-09-17\ 21:21:00.jpg);
+  background-size: cover;
+}
+.careers-flex {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.careers-content {
+  width: 38%;
+}
+.careers-title {
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.careers-text {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.careers-button {
+  display: inline-block;
+  text-decoration: none;
+  width: 196px;
+  color: white;
+  font-size: 15px;
+  background-color: black;
+  padding: 17px 0px;
+  text-align: center;
+  font-weight: 400;
+  transition: 1s;
+}
+.careers-button:hover {
+  background-color: rgb(84, 79, 79);
+}
+.contact {
+  height: 70vh;
+  background-color: black;
+}
+.contact-flex {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-title {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+.contact-text1 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 68px;
+}
+.contact-text2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
